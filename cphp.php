@@ -58,16 +58,16 @@
 		                  echo "Sum of cube of digits:- ";
                     echo "</td>";
                     echo "<td>";
-                      $c=0;
-			                $tl=$ad;
+                        $c=0;
+			$tl=$ad;
                       while($tl>0)
-     			              {
-				                   $a=$tl%10;
-      				             $cube=$a*$a*$a;
-       				             $c=$c+$cube;
-       				             $tl=$tl/10;
-     			              }
-		                    echo $c;
+     			   {
+				 $a=$tl%10;
+      				 $cube=$a*$a*$a;
+       				 $c=$c+$cube;
+       				 $tl=$tl/10;
+     			    }
+		      echo $c;
                     echo "</td>";
                   echo "</tr>";
  		              echo "<tr>";
